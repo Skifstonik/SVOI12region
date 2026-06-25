@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
     const locationData = {
         '267': { status: STATUS_HOUSE_READY, name: 'Модерн L', area: 8.98, price: '3592000', houseArea: 235, housePrice: 12757000, 'house-link': 'https://svoi12.ru/p/modernl/', image: '267.jpg' },
         '235': { status: STATUS_HOUSE_BUILDING, name: 'Райт S', area: 6.49, price: '2920500', houseArea: 120, housePrice: 9300000, image: 'rites.jpg' },
-        '277': { status: STATUS_HOUSE_READY, name: 'Сканди S+', area: 7.53, price: '3012000', houseArea: 140, housePrice: 11800000, 'house-link': 'https://svoi12.ru/p/scandisplus/', image: 'skandisplnew.jpg'},
+        '277': { status: STATUS_SOLD, name: 'Сканди S+', area: 7.53, price: '3012000', houseArea: 140, housePrice: 11800000, 'house-link': 'https://svoi12.ru/p/scandisplus/', image: 'skandisplnew.jpg'},
         '285': { status: STATUS_HOUSE_BUILDING, name: 'Барн S', area: 9.18, price: '3672000', houseArea: 185, housePrice: 10500000, 'house-link': 'https://svoi12.ru/p/barnx/', image: 'barns.jpg' },
         '288': { status: STATUS_SOLD, name: 'Модерн S+', area: 8.74, price: '3496000', houseArea: 170, housePrice: 11320000, 'house-link': 'https://svoi12.ru/p/modernsplus/', image: 'modernsgar.jpg' },
         '289': { status: STATUS_HOUSE_BUILDING, name: 'Барн М', area: 9.93, price: '3972000', houseArea: 200, housePrice: 12000000, 'house-link': 'https://svoi12.ru/p/barnm/', image: 'barnm.jpg' },
