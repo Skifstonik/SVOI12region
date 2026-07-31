@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
 
     // Основные данные по участкам
     const locationData = {
-        '267': { status: STATUS_HOUSE_READY, name: 'Модерн L', area: 8.98, price: '3592000', houseArea: 235, housePrice: 12957000, 'house-link': 'https://svoi12.ru/p/modernl/', image: '267.jpg' },
+        '267': { status: STATUS_SOLD, name: 'Модерн L', area: 8.98, price: '3592000', houseArea: 235, housePrice: 12957000, 'house-link': 'https://svoi12.ru/p/modernl/', image: '267.jpg' },
         '235': { status: STATUS_HOUSE_BUILDING, name: 'Райт S', area: 6.49, price: '2920500', houseArea: 120, housePrice: 9650000, image: 'rites.jpg' },
         '277': { status: STATUS_SOLD, name: 'Сканди S+', area: 7.53, price: '3012000', houseArea: 140, housePrice: 11800000, 'house-link': 'https://svoi12.ru/p/scandisplus/', image: 'skandisplnew.jpg'},
         '285': { status: STATUS_HOUSE_BUILDING, name: 'Барн S', area: 9.18, price: '3672000', houseArea: 185, housePrice: 10700000, 'house-link': 'https://svoi12.ru/p/barnx/', image: 'barns.jpg' },
@@ -60,7 +60,7 @@ jQuery(document).ready(function ($) {
         '233': { status: STATUS_SOLD, name: '233'},
         '226': { status: STATUS_SOLD, name: '226'},
         '240': { status: STATUS_SOLD, name: '240'},
-        '244': { status: STATUS_SOLD, name: '244'},
+        '244': { status: STATUS_HOUSE_READY, name: '244'},
         '246': { status: STATUS_SOLD, name: '246'},
         '251': { status: STATUS_SOLD, name: '251'},
         '253': { status: STATUS_SOLD, name: '253'},
